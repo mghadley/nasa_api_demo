@@ -1,0 +1,18 @@
+<div class='home'>
+	<h3 class='center'>Choose a Camera to see recent photos taken through it</h3>
+	<div class="row center">
+		<%= button_to "Front Hazard Avoidance Camera", index_path(camera: "fhaz"), class: 'btn' %>
+		<br>
+		<%= button_to "Rear Hazard Avoidance Camera", index_path(camera: "rhaz"), class: 'btn' %>
+		<br>
+		<%= button_to "Mast Camera", index_path(camera: "mast"), class: 'btn' %>
+		<br>
+		<%= button_to "Chemistry and Camera Complex", index_path(camera: "chemcam"), class: 'btn' %>
+		<br>
+		<%= button_to "Mars Hand Lens Imager", index_path(camera: "mahli"), class: 'btn' %>
+		<br>
+		<%= button_to "Mars Descent Image", index_path(camera: "mardi"), class: 'btn' %>
+		<br>
+		<%= button_to "Navigation Camera", index_path(camera: "navcam"), class: 'btn' %>
+	</div>
+</div>

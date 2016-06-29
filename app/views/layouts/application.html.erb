@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NasaApi</title>
+  <%= stylesheet_link_tag    'application', media: 'all' %>
+  <%= javascript_include_tag 'application' %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+	<nav>
+    <div class="nav-wrapper">
+      <a href="/" class="brand-logo">Curiosity Cam</a>
+      <ul id="nav-mobile" class="right">
+        <li><a href="/">Home</a></li>
+      </ul>
+    </div>
+  </nav>
+<%= yield %>
+
+</body>
+</html>

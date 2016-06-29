@@ -1,0 +1,11 @@
+<div className="row">
+	<% if @photos %>
+		<div class='photos center'>
+			<% @photos.each do |photo| %>
+				<img src=<%= photo["img_src"] %>></img>
+			<% end %>
+		</div>
+	<% else %>
+		<h3>No recent photos from this camera :/</h3>
+	<% end %>
+</div>
