@@ -15,6 +15,9 @@ gem 'materialize-sass'
 gem 'httparty'
 gem 'multi_xml'
 
+group :production do
+	gem 'pg'
+end
 
 group :development, :test do
   gem 'pry'
